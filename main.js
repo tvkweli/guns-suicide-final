@@ -296,7 +296,7 @@ $(function () {
 		},
 
 		title: {
-			text: 'Suicide Rates'
+			text: 'Suicide Rates (age adjusted, per 100,000)'
 		},
 
 
@@ -343,7 +343,7 @@ $(function () {
 		},
 
 		title: {
-			text: 'Gun Ownership Rates'
+			text: 'Gun Ownership Rates (%)'
 		},
 
 
@@ -363,7 +363,7 @@ $(function () {
 
 		series: [{
 			data: data2,
-			name: 'Rate of gun ownership',
+			name: 'Rate of gun ownership (%)',
 			states: {
 				hover: {
 					color: '#BADA55'
