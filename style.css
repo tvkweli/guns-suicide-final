@@ -1,0 +1,70 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css');
+/* Start your base/mobile styles here */
+
+* {
+  box-sizing: border-box;
+}
+
+#container {
+  height: 700px;
+}
+
+#container1 {
+  height: 350px;
+}
+
+#container2 {
+  height: 350px;
+}
+
+h1, h2, #text {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 5px;
+  display: block;
+}
+
+#text {
+  font-family: 'Nunito Sans', sans-serif;
+  opacity: 0.9;
+}
+
+h1 {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+h2 {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 14px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.loading {
+  margin-top: 10em;
+  text-align: center;
+  color: gray;
+}
+
+/* Tablet/Desktop overrides */
+
+@media(min-width: 681px) {}
+
+/* Any adjustments for tablets and larger go here. Note these styles will be applied to anything 681px or larger -- so tablet AND desktop */
+
+@media(min-width: 1000px) {
+  #container1 {
+    height: 600px;
+  }
+  #container2 {
+    height: 600px;
+  }
+}
+
+/* Any adjustments for desktop and larger go here. Note these styles will be applied to anything 729px or larger -- so desktop */
