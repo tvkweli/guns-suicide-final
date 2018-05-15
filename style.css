@@ -81,6 +81,12 @@ caption {
   #container2 {
     height: 600px;
   }
+  #intro {
+    max-width: 80%;
+  }
+  img {
+    width: 80%;
+  }
 }
 
 /* Any adjustments for desktop and larger go here. Note these styles will be applied to anything 729px or larger -- so desktop */
