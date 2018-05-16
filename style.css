@@ -68,6 +68,45 @@ caption {
   color: gray;
 }
 
+#quote {
+  float: right;
+  width: 200px;
+  background: #ddf;
+  font-weight: bold;
+  padding: 13px;
+  margin: 13px 13px 13px 13px;
+  border-color: black;
+  border-style: solid;
+  border-width: medium;
+}
+
+#pquote {
+  float: left;
+  width: 200px;
+  background: #ddf;
+  font-weight: bold;
+  padding: 13px;
+  margin: 0 13px 13px 0;
+  border-color: black;
+  border-style: solid;
+}
+
+#quote3 {
+  float: right;
+  width: 200px;
+  background: #ddf;
+  font-weight: bold;
+  padding: 13px;
+  margin: 13px 13px 13px 0;
+  border-color: black;
+  border-style: solid;
+}
+
+blockquote {
+  margin: 0;
+  /* gets rid of the default blockquote margin */
+}
+
 /* Tablet/Desktop overrides */
 
 @media(min-width: 681px) {
