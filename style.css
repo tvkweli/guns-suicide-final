@@ -33,6 +33,7 @@ h1 {
   font-family: 'Nunito Sans', sans-serif;
   font-weight: bold;
   margin-top: 15px;
+  font-size: 24px;
 }
 
 h2 {
@@ -144,6 +145,9 @@ blockquote {
   }
   img {
     width: 80%;
+  }
+  h1 {
+    font-size: 32px;
   }
 }
 
