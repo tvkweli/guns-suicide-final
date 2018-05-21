@@ -5,7 +5,7 @@ $(function () {
 			zoomType: 'xy'
 		},
 		title: {
-			text: 'Gun Ownership and Suicide Rate per name'
+			text: 'Gun Ownership and Suicide Rate per State'
 		},
 		subtitle: {
 			text: 'Source: <a href="https://today.yougov.com/">YouGov (2015)</a> and <a href="https://www.cdc.gov/nchs/pressroom/sosmap/suicide-mortality/suicide.htm">CDC (2016)</a>'
@@ -311,7 +311,7 @@ $(function () {
 		colorAxis: {
 			min: 0,
 			max: 15,
-			maxColor: "#C80000"
+			maxColor: "#8c0000"
 		},
 
 		series: [{
@@ -358,7 +358,7 @@ $(function () {
 		colorAxis: {
 			min: 0,
 			max: 60,
-			maxColor: "#C80000"
+			maxColor: "#8c0000"
 		},
 
 		series: [{
