@@ -298,6 +298,9 @@ $(function () {
 		title: {
 			text: 'Suicide Rates (age adjusted, per 100,000)'
 		},
+		subtitle: {
+			text: 'Source: <a href="https://www.cdc.gov/nchs/pressroom/sosmap/suicide-mortality/suicide.htm">CDC (2016)</a>'
+		},
 
 
 
@@ -344,6 +347,9 @@ $(function () {
 
 		title: {
 			text: 'Gun Ownership Rates (%)'
+		},
+		subtitle: {
+			text: 'Source: <a href="https://today.yougov.com/">YouGov (2015)'
 		},
 
 
