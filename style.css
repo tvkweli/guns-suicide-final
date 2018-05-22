@@ -17,7 +17,7 @@
   height: 350px;
 }
 
-h1, h2, #text {
+h1, h2, #text, #caption {
   max-width: 700px;
   margin: 0 auto;
   padding: 5px;
@@ -48,7 +48,6 @@ h2 {
   font-weight: bold;
   font-style: italic;
   font-size: 14px;
-  /* margin-left: 0%; */
 }
 
 img {
@@ -59,7 +58,7 @@ img {
 }
 
 #intro {
-  background-color: #ddf;
+  /* background-color: #ddf; */
   max-width: 100%;
   margin-left: auto;
   margin-right: auto;
@@ -128,7 +127,12 @@ blockquote {
     margin-left: 50px;
   }
   #caption {
-    margin-left: 10%;
+    /* margin-left: 10%; */
+    /* padding-top: 5px; */
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 5px;
+    display: block;
   }
 }
 
@@ -153,18 +157,15 @@ blockquote {
     max-width: 80%;
   }
   #caption {
+    padding-top: 5px;
     margin-left: 10%;
   }
-}
-
-img {
-  width: 80%;
-}
-
-h1 {
-  font-size: 32px;
-}
-
+  img {
+    width: 80%;
+  }
+  h1 {
+    font-size: 32px;
+  }
 }
 
 /* Any adjustments for desktop and larger go here. Note these styles will be applied to anything 729px or larger -- so desktop */
